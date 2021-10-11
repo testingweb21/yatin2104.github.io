@@ -1,0 +1,65 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Akronim', cursive;
+font-family: 'Birthstone', cursive;
+font-family: 'Ubuntu', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+      
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+nav{
+    height: 80px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px 0px 100px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size:19px;
+    font-weight: bold;
+    position: relative;
+    
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    margin: 20px;
+    
+
+}
+.LOGIN{
+    margin-top: 13px;
+    margin-left: 20px;
+    background-color: black;
+    color: #fff;
+    border-radius: 32px;
+    margin-bottom: 20px;
+    display: flex;
+    padding: 10px;
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 700;
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 700;
+}
+.under{
+    position: absolute;
+    left: 25%;
+    top: 20%;
+    
+}

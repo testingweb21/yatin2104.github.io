@@ -1,0 +1,547 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Akronim', cursive;
+font-family: 'Birthstone', cursive;
+font-family: 'Ubuntu', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+      
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+nav{
+    height: 80px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px 0px 100px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size:19px;
+    font-weight: bold;
+    position: relative;
+    
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    margin: 20px;
+    
+
+}
+.LOGIN{
+    margin-top: 13px;
+    margin-left: 20px;
+    background-color: black;
+    color: #fff;
+    border-radius: 32px;
+    margin-bottom: 20px;
+    display: flex;
+    padding: 10px;
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 700;
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 700;
+}
+
+.content{
+    width: 100%;
+     align-items: center;
+    justify-content: space-around; 
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    padding: 35px;
+    background-image: linear-gradient(90deg, #0093E9 67.4%, #fff 31%); 
+    height: 590px;
+    flex-wrap: nowrap;
+    cursor: default;
+    
+
+    position: relative;
+}
+.gif{
+    width: 400px;
+    
+}
+.button{
+    align-items: center;
+    display: flex;
+    text-align: center;
+    background-color: orange;
+    border-radius: 24px ;
+    padding: 10px;
+    float: right;
+    position: absolute;
+    top: 62%;
+    left: 40%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.ex{
+    position: absolute;
+    top: 65%;
+    left:10%;
+    font-size: 400;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.button a {
+    color:black;
+    text-decoration: none;
+}
+.bda-bhai{
+    width: 40%;
+    text-align: center;
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    padding: 25px;
+    top: 105%;
+    background: white;
+    cursor: default;
+    
+}
+.chota-bhai1{
+    position: absolute;
+    left: 45%;
+    top: 105%;
+   box-shadow: 0px 8px 10px gray, 
+    -10px 8px 10px gray, 10px 8px 10px gray;
+    /* border: 1px solid #888888; */
+    height: 300px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background: wheat;
+    cursor: default;
+    
+}
+.chota-bhai2{
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    left: 75%;
+    top: 105%;
+    box-shadow: 0px 8px 10px gray, 
+    -10px 8px 10px gray, 10px 8px 10px gray;
+    border-radius: 10px;
+    /* border: 1px solid red; */
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    background: wheat;
+    cursor: default;
+}
+
+.strategy{
+    height: 70px;
+    width: 70px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px orange, 
+    -10px 5px 5px orange, 10px 8px 10px orange;
+    cursor: default;
+}
+.comp{
+    height: 70px;
+    width: 70px;
+    padding: 10px;
+    box-shadow: 0px 5px 5px orange, 
+    -10px 5px 5px orange, 10px 8px 10px orange;
+    cursor: default;
+    border-radius: 5px;
+}
+.con{
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    cursor: default;
+    
+}
+
+nav ul li a:hover{
+    
+    color: purple;
+    
+    
+}
+
+.skill{
+    height: 400px;
+    position: absolute;
+    top: 155%;
+    left: 7%;
+}
+.our{
+    position: absolute;
+    top: 165%;
+    left: 47%;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+    cursor: default;
+
+}
+.q1{
+    position: absolute;
+    position: absolute;
+    top: 90px;
+    font-family: 'Poppins', sans-serif;
+    left: 100px;
+    width: 180px;
+    background: black; 
+     color: white;
+    padding: 6px;
+    border-radius: 8px;
+    cursor: default;
+} 
+.q2{
+    position: absolute;
+    position: absolute;
+    top: 90px;
+    font-family: 'Poppins', sans-serif;
+    left: 450px;
+    width: 180px;
+    background: black; 
+     color: white;
+    padding: 6px;
+    border-radius: 8px;
+    cursor: default;
+} 
+.q3{
+    position: absolute;
+    position: absolute;
+    top: 90px;
+    font-family: 'Poppins', sans-serif;
+    background: black; 
+     color: white;
+    padding: 6px;
+    border-radius: 8px;
+    left: 800px;
+    width: 180px;
+    cursor: default;
+} 
+.q4{
+    position: absolute;
+    position: absolute;
+    top: 90px;
+    font-family: 'Poppins', sans-serif;
+    left: 1100px;
+    width: 180px;
+    background: black; 
+     color: white;
+    padding: 6px;
+    border-radius: 8px;
+    cursor: default;
+
+} 
+.quicklink{
+    position: absolute;
+    left: 620px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    width: 180px;
+    background: #0093E9;
+    border-radius: 8px;margin-top: 5px;
+    
+
+
+}
+.QS{
+    height: 250px; 
+    color: white;
+    position: absolute  ;
+    top: 225%;
+    background-color:gray;
+    text-align: center;
+    width: 100%;
+    border-radius: 6px;    
+}
+.twitter{
+    position: absolute;
+    top: 25%;
+    left: 48%;
+    height: 30px;
+    width: 30px;
+    /* border: 1px solid white ; */
+}
+.fb{
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    height: 30px;
+    width: 30px;
+    /* border: 1px solid white; */
+}
+.insta{
+        position: absolute;
+        top: 25%;
+        left: 35%;
+        height: 30px;
+        width: 30px;
+}
+.y1{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    cursor: default;
+    font-weight: bold;
+
+
+}
+.faq{
+    font-family: 'Montserrat', sans-serif;
+    position:absolute;
+    top: 45%;
+    left: 33.5%;
+    font-size: 20px;
+    color: blue;
+
+}
+.term{
+    font-family: 'Montserrat', sans-serif;
+    position:absolute;
+    top: 45%;
+    left: 43%;
+    font-size: 20px;
+    color: blue;
+    
+}
+.pp{
+    font-family: 'Montserrat', sans-serif;
+    position:absolute;
+    top: 45%;
+    left: 58%;
+    font-size: 20px;
+    color: blue;
+    
+}
+.hover1{
+    font-family: 'Poppins', sans-serif;
+    top: 25%;
+    left: 33%;
+    position:absolute;
+    display: none;
+
+}
+.insta:hover{
+    height: 50px;
+    width: 50px;
+    top: 20%;
+    left: 34%;
+
+}
+.fb:hover{
+    height: 50px;
+    width: 50px;
+    top: 20%;
+    left: 59%;
+}
+.twitter:hover{
+    height: 50px;
+    width: 50px;
+    top: 20%;
+    left: 47%;
+}
+
+
+.tag{
+    position:absolute;
+    top:10%;
+    left:4%;
+    font-size: 90px;
+    color: white;
+    font-family: 'Birthstone', cursive; 
+
+}
+
+
+     
+
+
+.q1:hover{
+    width: 220px;
+    transition: 0.5s  linear;
+}
+.q2:hover{
+    width: 220px;
+    transition: 0.5s  linear;
+}
+.q3:hover{
+    width: 220px;
+    transition: 0.5s  linear;
+}
+.q4:hover{
+    width: 220px;
+    transition: 0.5s  linear;
+}
+
+@media only screen and (max-width: 600px){
+    nav ul {
+        display: block;
+        margin: 0;
+        padding: 0%;
+        text-align: center;
+    }
+        
+    
+    nav li{
+        margin: 0;
+        padding: 0%;
+        
+        display: block;
+    }
+    
+    nav{
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        /* background-color: blue; */
+        border: 1px solid black;
+        display: block;
+        height: 250px;
+        background-color: wheat;
+        
+        
+
+    }
+    .logo{
+        text-align: center;
+        display: block; 
+        margin: 0;
+        padding: 0%;
+        width: 100%;
+        
+    }
+  
+    .head{
+        display: block;
+        background-color: wheat;
+        border: 1px solid black;
+        margin: 0;
+        padding: 0%;
+        width: 100%;
+        font-size: 40px;
+    }
+    .gif{
+        display: none;
+    }
+    .content{
+        background-image: none;
+        position: relative;
+    }
+    .tag{
+        color: black;
+        font-size: 50px;
+        text-align: center;
+        padding: 0;
+        margin: 0%;
+        display: block;
+        
+    }
+    .button{
+        display: none;
+    }
+    .bda-bhai{
+        display: block;
+        position: relative;
+        margin: 0;
+        height: auto;
+        width: 100%;
+        border: 1px solid black ;
+    }
+    
+    .chota-bhai2{
+        display: block;
+        position: relative;
+        margin-top: 20px;
+        width: 100%;
+        border: 1px solid black;
+        text-align: center;
+        align-items: center;
+        top: 110%;
+        left: 0%;
+
+            }
+    .skill{
+        display: none;
+    }
+    .our{
+        position: relative;
+    }
+    .QS{
+        position: relative;
+    }
+    .ex{
+        /* position: relative; */
+        font-size: 20px;
+        margin: 0%;
+        display: block;
+    }
+    .h2{
+        position: relative;
+    }
+    .our{
+        position: relative;
+        left: 0%;
+        text-align: center;
+        font-size: 20px;
+        margin-top: 10px;
+        
+    }
+    .chota-bhai1{
+        display: block;
+        position: relative;
+        margin-top: 20px;
+        width: 100%;
+        border: 1px solid black;
+        text-align: center;
+        align-items: center;
+        top: 110%;
+        left: 0%;
+    }
+    .faq{
+        left: 40%;
+    }  
+    .term{
+        position: absolute;
+        top: 60%;
+        left: 25%;
+    }
+    .pp{
+        top: 75%;
+        left: 25%;
+    }
+    .insta{
+        left: 25%;
+    }
+    .twitter{
+        left: 45%;
+
+    }
+    .fb{
+        left: 65%;
+
+    }
+    .QS{
+        margin-top: 10px;
+        
+    }
+}
+

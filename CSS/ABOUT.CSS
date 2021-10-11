@@ -1,0 +1,364 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Akronim', cursive;
+font-family: 'Birthstone', cursive;
+font-family: 'Ubuntu', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+      
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+nav{
+    height: 80px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px 0px 100px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size:19px;
+    font-weight: bold;
+    position: relative;
+    
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    margin: 20px;
+    
+
+}
+.LOGIN{
+    margin-top: 13px;
+    margin-left: 20px;
+    background-color: black;
+    color: #fff;
+    border-radius: 32px;
+    margin-bottom: 20px;
+    display: flex;
+    padding: 10px;
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 700;
+}
+.mainas{
+    font-family: 'Birthstone', cursive;
+    padding: 40px;
+    text-align: left;
+    font-size: 80px;
+    font-weight: bold;
+    margin-left: 20px;
+    cursor: default;
+    
+}
+
+.text{
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold; 
+    cursor: default;
+}
+.abus{
+    position: absolute;
+    left: 70%;
+    top: 14%;
+    width: 400px;
+}
+.main{
+    position: absolute;
+    top:30% ;
+    text-align: center  ;
+    left: 2%;
+    
+
+
+}
+.coders{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    top: 90%;
+    left: 10%;
+    font-weight: bold;
+    font-size: 50px ;
+    cursor: default;
+
+}
+.coder1{
+    position: absolute;
+    top: 105%;
+    border: 1px solid black;
+    left: 55%;
+    border-radius: 22px;
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    color: white;
+   
+
+}
+.coder2{
+    position: absolute;
+    top: 105%;
+    border: 1px solid black;
+    left: 20%;
+    border-radius: 22px;
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    color: white;
+   
+
+}
+.coder2:hover .img1{
+    display: none;
+}
+
+ .coder2:hover{
+     background-color: white;
+     border: 2PX SOLID black;
+ }
+ .coder1:hover .img2{
+    display: none;
+}
+
+ .coder1:hover{
+     background-color: white;
+     border: 2PX SOLID black;
+ }
+.hide1{
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    top: 20%;
+    left:20%;
+}
+.mail{
+    color: black;
+    position: absolute;
+    top: 45%;
+    left: 3%;
+    font-family: 'Poppins', sans-serif;
+
+    font-weight: bold;
+
+}
+.mail1{
+    color: black;
+    position: absolute;
+    top: 45%;
+    left: 8%;
+    font-family: 'Poppins', sans-serif;
+
+    font-weight: bold;
+
+}
+.hide2{
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    top: 20%;
+    left:45%;
+}
+.hide3{
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    top: 20%;
+    left:70%;
+}
+
+.coder3{
+ position: absolute;   
+ top: 110%;
+ border: 2px solid black;
+ height: 250px;
+ width: 250px;
+ left:20%;
+ border-radius: 22px;
+ background-color: black;
+ color: white;
+}
+
+.img1{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    left: 10%;
+    border: 2PX SOLID black;
+}
+.y1{
+    position: absolute;
+    top: 85%;
+    left: 17%;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold; 
+}
+.img2{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    left: 11.6%;
+    
+}
+.main-content{
+    height: 400px;
+}
+.footer{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 30px;
+    cursor: default;
+
+}
+.QS{
+    height: 250px; 
+    color: white;
+    position: absolute  ;
+    top: 150%;
+    background-color: gray;
+    text-align: center;
+    width: 100%;
+    border-radius: 6px;    
+}
+.twitter{
+    position: absolute;
+    top: 25%;
+    left: 48%;
+    height: 30px;
+    width: 30px;
+    /* border: 1px solid white ; */
+}
+.fb{
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    height: 30px;
+    width: 30px;
+    /* border: 1px solid white; */
+}
+.insta{
+        position: absolute;
+        top: 25%;
+        left: 35%;
+        height: 30px;
+        width: 30px;
+}
+.yes1{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    /* border-bottom: 2px solid black; */
+    font-size: 20px;
+    position: absolute;
+    top: 4%;
+    left:33%;
+    cursor: default;
+
+
+}
+
+.faq{
+    font-family: 'Montserrat', sans-serif;
+    position:absolute;
+    top: 45%;
+    left: 33.5%;
+    font-size: 20px;
+    color: blue;
+    
+
+}
+.term{
+    font-family: 'Montserrat', sans-serif;
+    position:absolute;
+    top: 45%;
+    left: 44%;
+    font-size: 20px;
+    color: blue;
+    
+}
+.pp{
+    font-family: 'Montserrat', sans-serif;
+    position:absolute;
+    top: 45%;
+    left: 58%;
+    font-size: 20px;
+    color: blue;
+    
+}
+.hover1{
+    font-family: 'Poppins', sans-serif;
+    top: 25%;
+    left: 33%;
+    position:absolute;
+    display: none;
+
+}
+.hide1:hover{
+    height: 40px;
+    width: 40px;
+    top: 19%;
+    left: 19%;
+
+}
+.hide2:hover{
+    height: 40px;
+    width: 40px;
+    top: 19%;
+    left: 44%;
+
+}
+.head{
+    cursor: default;
+}
+.hide3:hover{
+    height: 40px;
+    width: 40px;
+    top: 19%;
+    left: 69%;
+
+}
+.insta:hover{
+    height: 50px;
+    width: 50px;
+    top: 20%;
+    left: 34%;
+
+}
+.fb:hover{
+    height: 50px;
+    width: 50px;
+    top: 20%;
+    left: 59%;
+}
+.twitter:hover{
+    height: 50px;
+    width: 50px;
+    top: 20%;
+    left: 47%;
+}
+
+nav ul li a:hover{
+    
+    color: purple;
+    
+    
+}
